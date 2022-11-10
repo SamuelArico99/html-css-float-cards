@@ -13,23 +13,69 @@ h1{
     padding-left: 450px;
 }
 p{
+    text-align: justify;
+    text-align-last: center;
     margin-bottom: 40px;
+    padding-left: 20px;
+}
+a{
+    color: deepskyblue;
+    text-decoration: none;
 }
 .container {
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 40px;
 }
-section{
-    max-width: 900px;
+.columns{
     margin: 0 auto;
 }
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 .card{
-    width: 250px;
-    height: 80px;
+    width: calc((100% / 3) - 20px);
+    height: 102px;
     background-color: navy;
     border: 1px solid black;
     float: left;
     margin-left: 20px;
     margin-bottom: 40px;
+}
+.photo{
+    background-color: chartreuse;
+    height: 100px;
+    width: 100px;
+    float: left;
+    background-size: cover;
+}
+.description{
+    color: white;
+    float: right;
+    width:200px;
+    height: 60px;
+    text-align: center;
+    margin-top: 18px;
+    margin-right: 40px;
+
+}
+.laura{
+    background-image: url('../img/female1.png');
+}
+.marco{
+    background-image: url('../img/male1.png');
+}
+.giorgio{
+    background-image: url('../img/male2.png');
+}
+.marta{
+    background-image: url('../img/female2.png');
+}
+.roberto{
+    background-image: url('../img/male3.png');
+}
+.daniela{
+    background-image: url('../img/female3.png');
 }
