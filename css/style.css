@@ -37,15 +37,14 @@ a{
 }
 .card{
     width: calc((100% / 3) - 20px);
-    height: 102px;
-    background-color: navy;
-    border: 1px solid black;
+    height: 100px;
+    background-color:rgba(15,14,23,255);
+
     float: left;
     margin-left: 20px;
     margin-bottom: 40px;
 }
 .photo{
-    background-color: chartreuse;
     height: 100px;
     width: 100px;
     float: left;
