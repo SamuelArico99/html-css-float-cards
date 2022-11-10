@@ -12,10 +12,17 @@ h1{
     margin-bottom: 40px;
     padding-left: 450px;
 }
+p{
+    margin-bottom: 40px;
+}
 .container {
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 40px;
+}
+section{
+    max-width: 900px;
+    margin: 0 auto;
 }
 .card{
     width: 250px;
@@ -23,4 +30,6 @@ h1{
     background-color: navy;
     border: 1px solid black;
     float: left;
+    margin-left: 20px;
+    margin-bottom: 40px;
 }
